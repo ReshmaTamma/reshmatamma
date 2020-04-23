@@ -36,7 +36,7 @@ int main(int argc,char *argv[])
 		fH=atof(argv[iB]);		//atof convert ascii to float
    		if(iC==0)
 		{
-			if(check(argv[iB]))	//if condition satisfies means it will print char
+			if(length(argv[iB]))	//if condition satisfies means it will print char
 			{
 				cout<<"char";
 				cout<<"\t"<<argv[iB]<< "\t"<<strlen(argv[iB])<<endl;
