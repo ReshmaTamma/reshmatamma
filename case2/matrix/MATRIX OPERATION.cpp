@@ -1,4 +1,4 @@
-*FILE NAME:MATRIX OPERATIONS.cpp
+/*FILE NAME:MATRIX OPERATION.cpp
  *PURPOSE  :To process the given matrix in row wise ,column wise and diagonal wise to replace the repeated elements only once and the empty spaces by '*'
  *DATE     :10/06/020
  *AUTHOR   :RESHMA.T
@@ -87,7 +87,7 @@ void readmatrix()
     {
         for(icolumn=0;icolumn<Column;icolumn++)
         {
-            cout<<inputmatix[irow][icolumn]<<endl;
+            
             cin>>inputmatrix[irow][icolumn];
         }
         
