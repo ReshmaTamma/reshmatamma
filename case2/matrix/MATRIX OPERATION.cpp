@@ -87,6 +87,7 @@ void readmatrix()
     {
         for(icolumn=0;icolumn<Column;icolumn++)
         {
+            cout<<inputmatix[irow][icolumn]<<endl;
             cin>>inputmatrix[irow][icolumn];
         }
         
